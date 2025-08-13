@@ -1,0 +1,183 @@
+.bag-items-container {
+    display: inline-block;
+    width: 100%;
+    padding-right: 20px;
+    border-right: 1px solid #eaeaec;
+    padding-top: 32px;
+    color: #282c3f;
+    font-size: 13px;
+    line-height: 1.42857143;
+}
+
+.bag-page {
+    width: 75%;
+    margin-left: 12.5%;
+}
+
+.bag-details-container {
+    margin-bottom: 16px;
+    width: 22rem;
+}
+
+.price-header {
+    font-size: 12px;
+    font-weight: 700;
+    margin: 24px 0 16px;
+    color: #535766;
+}
+
+.price-item {
+    margin-bottom: 12px;
+    line-height: 16px;
+    font-size: 14px;
+    color: #282c3f;
+}
+
+.price-item-value {
+    float: right;
+}
+
+.priceDetail-base-discount {
+    color: #03a685;
+}
+
+.price-footer {
+    font-weight: 700;
+    font-size: 15px;
+    padding-top: 16px;
+    border-top: 1px solid #eaeaec;
+    color: #3e4152;
+    line-height: 16px;
+}
+
+.btn-place-order {
+    width: 100%;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 2px;
+    border-width: 0px;
+    padding: 10px 16px;
+    background-color: rgb(255, 63, 108);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.bag-item-container {
+    margin-bottom: 8px;
+    background: #fff;
+    font-size: 14px;
+    border: 1px solid #eaeaec;
+    border-radius: 4px;
+    position: relative;
+    padding: 12px 12px 0;
+}
+
+.item-left-part {
+    position: absolute;
+    background: rgb(255, 242, 223);
+    height: 148px;
+    width: 111px;
+}
+
+.item-right-part {
+    padding-left: 12px;
+    position: relative;
+    min-height: 148px;
+    margin-left: 111px;
+    margin-bottom: 12px;
+}
+
+.bag-item-img {
+    width: 100%;
+}
+
+.return-period {
+    display: inline-flex;
+    font-size: 14px;
+    padding-top: 8px;
+}
+
+.return-period-days {
+    font-weight: 700;
+    margin-right: 4px;
+}
+
+.delivery-details {
+    margin-top: 5px;
+}
+
+.delivery-details-days {
+  color: #03a685;
+}
+
+.remove-from-cart {
+  position: absolute;
+  font-size: 25px;
+  top: 10px;
+  right: 18px;
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+}
+
+/* Empty Bag UI */
+
+.empty_bag_message {
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 250px;
+  margin-bottom: 100px;;
+  color: #333;
+  display: none; /* Hidden by default */
+}
+
+.empty_bag_message img.empty-bag-img {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.empty_bag_message h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.empty_bag_message p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.empty_bag_message .wishlist-btn {
+  padding: 10px 20px;
+  border: 1px solid #ff3f6c;
+  background-color: white;
+  color: #ff3f6c;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.empty_bag_message .wishlist-btn:hover {
+  background-color: #ff3f6c;
+  color: white;
+}
+
+/* Bag Container */
+.bag-container {
+    display: flex;
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.bag-items {
+    flex: 3;
+}
+
+.price-details {
+    flex: 1;
+    position: sticky;
+    top: 20px;
+    align-self: flex-start;
+}

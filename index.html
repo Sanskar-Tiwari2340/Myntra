@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body onload="onLoad()">
+    <header>
+
+        <div class="logo_container">
+            <a href="#"><img class="Myntra_Home" src = "Images 1/myntra_logo.webp" alt="Myntra Home"></a>
+        </div>
+
+        <div class="nav_bar">
+            <!-- MEN with Mega Menu -->
+            <div class="nav_item">
+                <a href="#">MEN</a>
+                <div class="mega_menu">
+                    <div class="mega_column">
+                        <h4>Topwear</h4>
+                        <a href="#">T-Shirts</a>
+                        <a href="#">Casual Shirts</a>
+                        <a href="#">Formal Shirts</a>
+                        <a href="#">Sweatshirts</a>
+                        <a href="#">Sweaters</a>
+                        <a href="#">Jackets</a>
+                        <a href="#">Blazers & Coats</a>
+                        <a href="#">Suits</a>
+                        <a href="#">Rain Jackets</a>
+                        
+                        <h4>Indian & Festive Wear</h4>
+                        <a href="#">Kurtas & Kurta Sets</a>
+                        <a href="#">Sherwanis</a>
+                        <a href="#">Nehru Jackets</a>
+                        <a href="#">Dhotis</a>
+                    </div>
+
+                    <div class="mega_column">
+                        <h4>Bottomwear</h4>
+                        <a href="#">Jeans</a>
+                        <a href="#">Casual Trousers</a>
+                        <a href="#">Formal Trousers</a>
+                        <a href="#">Shorts</a>
+                        <a href="#">Track Pants & Joggers</a>
+
+                        <h4>Innerwear & Sleepwear</h4>
+                        <a href="#">Briefs & Trunks</a>
+                        <a href="#">Boxers</a>
+                        <a href="#">Vests</a>
+                        <a href="#">Sleepwear & Loungewear</a>
+                        <a href="#">Thermals</a>
+                    </div>
+
+                    <div class="mega_column">
+                        <h4>Footwear</h4>
+                        <a href="#">Casual Shoes</a>
+                        <a href="#">Sports Shoes</a>
+                        <a href="#">Formal Shoes</a>
+                        <a href="#">Sneakers</a>
+                        <a href="#">Sandals & Floaters</a>
+                        <a href="#">Flip Flops</a>
+                        <a href="#">Socks</a>
+                    </div>
+
+                    <div class="mega_column">
+                        <h4>Sports & Active Wear</h4>
+                        <a href="#">Sports Shoes</a>
+                        <a href="#">Sports Sandals</a>
+                        <a href="#">Active T-Shirts</a>
+                        <a href="#">Track Pants & Shorts</a>
+                        <a href="#">Tracksuits</a>
+                        <a href="#">Jackets & Sweatshirts</a>
+                        <a href="#">Sports Accessories</a>
+                        <a href="#">Swimwear</a>
+                    </div>
+
+                    <div class="mega_column">
+                        <h4>Fashion Accessories</h4>
+                        <a href="#">Wallets</a>
+                        <a href="#">Belts</a>
+                        <a href="#">Perfumes & Body Mists</a>
+                        <a href="#">Trimmers</a>
+                        <a href="#">Deodorants</a>
+                        <a href="#">Ties, Cufflinks & Pocket Squares</a>
+                        <a href="#">Accessory Gift Sets</a>
+                        <a href="#">Caps & Hats</a>
+                        <a href="#">Mufflers, Scarves & Gloves</a>
+                        <a href="#">Phone Cases</a>
+                        <a href="#">Rings & Wristwear</a>
+                        <a href="#">Helmets</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav_item">
+                <a href="#">WOMEN</a>
+                <div class="mega_menu">
+                    <div class="mega_column">
+                        <h4>Indian & Fusion Wear</h4>
+                        <a href="#">Kurtas & Suits</a>
+                        <a href="#">Kurtis, Tunics & Tops</a>
+                        <a href="#">Sarees</a>
+                        <a href="#">Ethnic Wear</a>
+                        <a href="#">Skirts & Palazzos</a>
+                    </div>
+
+                    <div class="mega_column">
+                        <h4>Western Wear</h4>
+                        <a href="#">Dresses</a>
+                        <a href="#">Tops</a>
+                        <a href="#">Tshirts</a>
+                        <a href="#">Jeans</a>
+                    </div>
+
+                    <div class="mega_column">
+                        <h4>Footwear</h4>
+                        <a href="#">Flats</a>
+                        <a href="#">Casual Shoes</a>
+                        <a href="#">Heels</a>
+                        <a href="#">Boots</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav_item">
+                <a href="#">KIDS</a>
+                <div class="mega_menu">
+
+                    <!-- Boys Clothing -->
+                    <div class="mega_column">
+                        <h4>Boys Clothing</h4>
+                        <a href="#">T-Shirts</a>
+                        <a href="#">Shirts</a>
+                        <a href="#">Shorts</a>
+                        <a href="#">Jeans</a>
+                        <a href="#">Trousers</a>
+                        <a href="#">Clothing Sets</a>
+                        <a href="#">Ethnic Wear</a>
+                        <a href="#">Track Pants & Pyjamas</a>
+                        <a href="#">Jacket, Sweater & Sweatshirts</a>
+                        <a href="#">Party Wear</a>
+                        <a href="#">Innerwear & Thermals</a>
+                        <a href="#">Nightwear & Loungewear</a>
+                        <a href="#">Value Packs</a>
+                    </div>
+
+                    <!-- Girls Clothing -->
+                    <div class="mega_column">
+                        <h4>Girls Clothing</h4>
+                        <a href="#">Dresses</a>
+                        <a href="#">Tops</a>
+                        <a href="#">Tshirts</a>
+                        <a href="#">Clothing Sets</a>
+                        <a href="#">Lehenga Choli</a>
+                        <a href="#">Kurta Sets</a>
+                        <a href="#">Party Wear</a>
+                        <a href="#">Dungarees & Jumpsuits</a>
+                        <a href="#">Skirts & Shorts</a>
+                        <a href="#">Tights & Leggings</a>
+                        <a href="#">Jeans, Trousers & Capris</a>
+                        <a href="#">Jacket, Sweater & Sweatshirts</a>
+                        <a href="#">Innerwear & Thermals</a>
+                        <a href="#">Nightwear & Loungewear</a>
+                        <a href="#">Value Packs</a>
+                    </div>
+
+                    <!-- Footwear -->
+                    <div class="mega_column">
+                        <h4>Footwear</h4>
+                        <a href="#">Casual Shoes</a>
+                        <a href="#">Flipflops</a>
+                        <a href="#">Sports Shoes</a>
+                        <a href="#">Flats</a>
+                        <a href="#">Sandals</a>
+                        <a href="#">Heels</a>
+                        <a href="#">School Shoes</a>
+                        <a href="#">Socks</a>
+                    </div>
+
+                    <!-- Toys & Games -->
+                    <div class="mega_column">
+                        <h4>Toys & Games</h4>
+                        <a href="#">Learning & Development</a>
+                        <a href="#">Activity Toys</a>
+                        <a href="#">Soft Toys</a>
+                        <a href="#">Action Figure / Play set</a>
+                    </div>
+
+                    <!-- Infants -->
+                    <div class="mega_column">
+                        <h4>Infants</h4>
+                        <a href="#">Bodysuits</a>
+                        <a href="#">Rompers & Sleepsuits</a>
+                        <a href="#">Clothing Sets</a>
+                        <a href="#">Tshirts & Tops</a>
+                        <a href="#">Dresses</a>
+                        <a href="#">Bottom wear</a>
+                        <a href="#">Winter Wear</a>
+                        <a href="#">Innerwear & Sleepwear</a>
+                        <a href="#">Infant Care</a>
+                        <a href="#">Home & Bath</a>
+                        <a href="#">Personal Care</a>
+                    </div>
+
+                    <!-- Accessories & Brands -->
+                    <div class="mega_column">
+                        <h4>Kids Accessories</h4>
+                        <a href="#">Bags & Backpacks</a>
+                        <a href="#">Watches</a>
+                        <a href="#">Jewellery & Hair accessory</a>
+                        <a href="#">Sunglasses</a>
+                        <a href="#">Masks & Protective Gears</a>
+                        <a href="#">Caps & Hats</a>
+
+                        <h4 style="margin-top: 15px;">Brands</h4>
+                        <a href="#">H&M</a>
+                        <a href="#">Max Kids</a>
+                        <a href="#">Pantaloons</a>
+                        <a href="#">United Colors Of Benetton Kids</a>
+                        <a href="#">YK</a>
+                        <a href="#">U.S. Polo Assn. Kids</a>
+                        <a href="#">Mothercare</a>
+                        <a href="#">HRX</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav_item">
+                <a href="#">HOME</a>
+                <div class="mega_menu">
+
+                    <!-- Boys Clothing -->
+                    <div class="mega_column">
+                        <h4>Boys Clothing</h4>
+                        <a href="#">T-Shirts</a>
+                        <a href="#">Shirts</a>
+                        <a href="#">Shorts</a>
+                        <a href="#">Jeans</a>
+                        <a href="#">Trousers</a>
+                        <a href="#">Clothing Sets</a>
+                        <a href="#">Ethnic Wear</a>
+                        <a href="#">Track Pants & Pyjamas</a>
+                        <a href="#">Jacket, Sweater & Sweatshirts</a>
+                        <a href="#">Party Wear</a>
+                        <a href="#">Innerwear & Thermals</a>
+                        <a href="#">Nightwear & Loungewear</a>
+                        <a href="#">Value Packs</a>
+                    </div>
+
+                    <!-- Girls Clothing -->
+                    <div class="mega_column">
+                        <h4>Girls Clothing</h4>
+                        <a href="#">Dresses</a>
+                        <a href="#">Tops</a>
+                        <a href="#">Tshirts</a>
+                        <a href="#">Clothing Sets</a>
+                        <a href="#">Lehenga Choli</a>
+                        <a href="#">Kurta Sets</a>
+                        <a href="#">Party Wear</a>
+                        <a href="#">Dungarees & Jumpsuits</a>
+                        <a href="#">Skirts & Shorts</a>
+                        <a href="#">Tights & Leggings</a>
+                        <a href="#">Jeans, Trousers & Capris</a>
+                        <a href="#">Jacket, Sweater & Sweatshirts</a>
+                        <a href="#">Innerwear & Thermals</a>
+                        <a href="#">Nightwear & Loungewear</a>
+                        <a href="#">Value Packs</a>
+                    </div>
+
+                    <!-- Footwear -->
+                    <div class="mega_column">
+                        <h4>Footwear</h4>
+                        <a href="#">Casual Shoes</a>
+                        <a href="#">Flipflops</a>
+                        <a href="#">Sports Shoes</a>
+                        <a href="#">Flats</a>
+                        <a href="#">Sandals</a>
+                        <a href="#">Heels</a>
+                        <a href="#">School Shoes</a>
+                        <a href="#">Socks</a>
+                    </div>
+
+                    <!-- Toys & Games -->
+                    <div class="mega_column">
+                        <h4>Toys & Games</h4>
+                        <a href="#">Learning & Development</a>
+                        <a href="#">Activity Toys</a>
+                        <a href="#">Soft Toys</a>
+                        <a href="#">Action Figure / Play set</a>
+                    </div>
+
+                    <!-- Infants -->
+                    <div class="mega_column">
+                        <h4>Infants</h4>
+                        <a href="#">Bodysuits</a>
+                        <a href="#">Rompers & Sleepsuits</a>
+                        <a href="#">Clothing Sets</a>
+                        <a href="#">Tshirts & Tops</a>
+                        <a href="#">Dresses</a>
+                        <a href="#">Bottom wear</a>
+                        <a href="#">Winter Wear</a>
+                        <a href="#">Innerwear & Sleepwear</a>
+                        <a href="#">Infant Care</a>
+                        <a href="#">Home & Bath</a>
+                        <a href="#">Personal Care</a>
+                    </div>
+
+                    <!-- Accessories & Brands -->
+                    <div class="mega_column">
+                        <h4>Kids Accessories</h4>
+                        <a href="#">Bags & Backpacks</a>
+                        <a href="#">Watches</a>
+                        <a href="#">Jewellery & Hair accessory</a>
+                        <a href="#">Sunglasses</a>
+                        <a href="#">Masks & Protective Gears</a>
+                        <a href="#">Caps & Hats</a>
+
+                        <h4 style="margin-top: 15px;">Brands</h4>
+                        <a href="#">H&M</a>
+                        <a href="#">Max Kids</a>
+                        <a href="#">Pantaloons</a>
+                        <a href="#">United Colors Of Benetton Kids</a>
+                        <a href="#">YK</a>
+                        <a href="#">U.S. Polo Assn. Kids</a>
+                        <a href="#">Mothercare</a>
+                        <a href="#">HRX</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav_item">
+                <a href="#">BEAUTY</a>
+                <div class="mega_menu">
+
+                    <!-- Boys Clothing -->
+                    <div class="mega_column">
+                        <h4>Boys Clothing</h4>
+                        <a href="#">T-Shirts</a>
+                        <a href="#">Shirts</a>
+                        <a href="#">Shorts</a>
+                        <a href="#">Jeans</a>
+                        <a href="#">Trousers</a>
+                        <a href="#">Clothing Sets</a>
+                        <a href="#">Ethnic Wear</a>
+                        <a href="#">Track Pants & Pyjamas</a>
+                        <a href="#">Jacket, Sweater & Sweatshirts</a>
+                        <a href="#">Party Wear</a>
+                        <a href="#">Innerwear & Thermals</a>
+                        <a href="#">Nightwear & Loungewear</a>
+                        <a href="#">Value Packs</a>
+                    </div>
+
+                    <!-- Girls Clothing -->
+                    <div class="mega_column">
+                        <h4>Girls Clothing</h4>
+                        <a href="#">Dresses</a>
+                        <a href="#">Tops</a>
+                        <a href="#">Tshirts</a>
+                        <a href="#">Clothing Sets</a>
+                        <a href="#">Lehenga Choli</a>
+                        <a href="#">Kurta Sets</a>
+                        <a href="#">Party Wear</a>
+                        <a href="#">Dungarees & Jumpsuits</a>
+                        <a href="#">Skirts & Shorts</a>
+                        <a href="#">Tights & Leggings</a>
+                        <a href="#">Jeans, Trousers & Capris</a>
+                        <a href="#">Jacket, Sweater & Sweatshirts</a>
+                        <a href="#">Innerwear & Thermals</a>
+                        <a href="#">Nightwear & Loungewear</a>
+                        <a href="#">Value Packs</a>
+                    </div>
+
+                    <!-- Footwear -->
+                    <div class="mega_column">
+                        <h4>Footwear</h4>
+                        <a href="#">Casual Shoes</a>
+                        <a href="#">Flipflops</a>
+                        <a href="#">Sports Shoes</a>
+                        <a href="#">Flats</a>
+                        <a href="#">Sandals</a>
+                        <a href="#">Heels</a>
+                        <a href="#">School Shoes</a>
+                        <a href="#">Socks</a>
+                    </div>
+
+                    <!-- Toys & Games -->
+                    <div class="mega_column">
+                        <h4>Toys & Games</h4>
+                        <a href="#">Learning & Development</a>
+                        <a href="#">Activity Toys</a>
+                        <a href="#">Soft Toys</a>
+                        <a href="#">Action Figure / Play set</a>
+                    </div>
+
+                    <!-- Infants -->
+                    <div class="mega_column">
+                        <h4>Infants</h4>
+                        <a href="#">Bodysuits</a>
+                        <a href="#">Rompers & Sleepsuits</a>
+                        <a href="#">Clothing Sets</a>
+                        <a href="#">Tshirts & Tops</a>
+                        <a href="#">Dresses</a>
+                        <a href="#">Bottom wear</a>
+                        <a href="#">Winter Wear</a>
+                        <a href="#">Innerwear & Sleepwear</a>
+                        <a href="#">Infant Care</a>
+                        <a href="#">Home & Bath</a>
+                        <a href="#">Personal Care</a>
+                    </div>
+
+                    <!-- Accessories & Brands -->
+                    <div class="mega_column">
+                        <h4>Kids Accessories</h4>
+                        <a href="#">Bags & Backpacks</a>
+                        <a href="#">Watches</a>
+                        <a href="#">Jewellery & Hair accessory</a>
+                        <a href="#">Sunglasses</a>
+                        <a href="#">Masks & Protective Gears</a>
+                        <a href="#">Caps & Hats</a>
+
+                        <h4 style="margin-top: 15px;">Brands</h4>
+                        <a href="#">H&M</a>
+                        <a href="#">Max Kids</a>
+                        <a href="#">Pantaloons</a>
+                        <a href="#">United Colors Of Benetton Kids</a>
+                        <a href="#">YK</a>
+                        <a href="#">U.S. Polo Assn. Kids</a>
+                        <a href="#">Mothercare</a>
+                        <a href="#">HRX</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav_item">
+                <a href="#">GENZ</a>
+                <div class="mega_menu">
+
+                    <!-- Boys Clothing -->
+                    <div class="mega_column">
+                        <h4>Boys Clothing</h4>
+                        <a href="#">T-Shirts</a>
+                        <a href="#">Shirts</a>
+                        <a href="#">Shorts</a>
+                        <a href="#">Jeans</a>
+                        <a href="#">Trousers</a>
+                        <a href="#">Clothing Sets</a>
+                        <a href="#">Ethnic Wear</a>
+                        <a href="#">Track Pants & Pyjamas</a>
+                        <a href="#">Jacket, Sweater & Sweatshirts</a>
+                        <a href="#">Party Wear</a>
+                        <a href="#">Innerwear & Thermals</a>
+                        <a href="#">Nightwear & Loungewear</a>
+                        <a href="#">Value Packs</a>
+                    </div>
+
+                    <!-- Girls Clothing -->
+                    <div class="mega_column">
+                        <h4>Girls Clothing</h4>
+                        <a href="#">Dresses</a>
+                        <a href="#">Tops</a>
+                        <a href="#">Tshirts</a>
+                        <a href="#">Clothing Sets</a>
+                        <a href="#">Lehenga Choli</a>
+                        <a href="#">Kurta Sets</a>
+                        <a href="#">Party Wear</a>
+                        <a href="#">Dungarees & Jumpsuits</a>
+                        <a href="#">Skirts & Shorts</a>
+                        <a href="#">Tights & Leggings</a>
+                        <a href="#">Jeans, Trousers & Capris</a>
+                        <a href="#">Jacket, Sweater & Sweatshirts</a>
+                        <a href="#">Innerwear & Thermals</a>
+                        <a href="#">Nightwear & Loungewear</a>
+                        <a href="#">Value Packs</a>
+                    </div>
+
+                    <!-- Footwear -->
+                    <div class="mega_column">
+                        <h4>Footwear</h4>
+                        <a href="#">Casual Shoes</a>
+                        <a href="#">Flipflops</a>
+                        <a href="#">Sports Shoes</a>
+                        <a href="#">Flats</a>
+                        <a href="#">Sandals</a>
+                        <a href="#">Heels</a>
+                        <a href="#">School Shoes</a>
+                        <a href="#">Socks</a>
+                    </div>
+
+                    <!-- Toys & Games -->
+                    <div class="mega_column">
+                        <h4>Toys & Games</h4>
+                        <a href="#">Learning & Development</a>
+                        <a href="#">Activity Toys</a>
+                        <a href="#">Soft Toys</a>
+                        <a href="#">Action Figure / Play set</a>
+                    </div>
+
+                    <!-- Infants -->
+                    <div class="mega_column">
+                        <h4>Infants</h4>
+                        <a href="#">Bodysuits</a>
+                        <a href="#">Rompers & Sleepsuits</a>
+                        <a href="#">Clothing Sets</a>
+                        <a href="#">Tshirts & Tops</a>
+                        <a href="#">Dresses</a>
+                        <a href="#">Bottom wear</a>
+                        <a href="#">Winter Wear</a>
+                        <a href="#">Innerwear & Sleepwear</a>
+                        <a href="#">Infant Care</a>
+                        <a href="#">Home & Bath</a>
+                        <a href="#">Personal Care</a>
+                    </div>
+
+                    <!-- Accessories & Brands -->
+                    <div class="mega_column">
+                        <h4>Kids Accessories</h4>
+                        <a href="#">Bags & Backpacks</a>
+                        <a href="#">Watches</a>
+                        <a href="#">Jewellery & Hair accessory</a>
+                        <a href="#">Sunglasses</a>
+                        <a href="#">Masks & Protective Gears</a>
+                        <a href="#">Caps & Hats</a>
+
+                        <h4 style="margin-top: 15px;">Brands</h4>
+                        <a href="#">H&M</a>
+                        <a href="#">Max Kids</a>
+                        <a href="#">Pantaloons</a>
+                        <a href="#">United Colors Of Benetton Kids</a>
+                        <a href="#">YK</a>
+                        <a href="#">U.S. Polo Assn. Kids</a>
+                        <a href="#">Mothercare</a>
+                        <a href="#">HRX</a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#">STUDIO <sup>NEW</sup> </a>
+
+        </div>
+
+        <div class="search_bar"> 
+            <span class="material-symbols-outlined"> search </span>
+            <input class="search_input" placeholder="Search for products, brands and more">
+        </div>
+
+        <div class="action_bar">
+            <div class="action_container profile-menu">
+                <span class="material-symbols-outlined action_icon" style="background: none">person</span>
+                <span class="action_name"> Profile </span>
+
+                <div class="profile-dropdown">
+                    <p class="hello-user">Hello Sanskar Tiwari</p>
+                    <p class="phone-number">9695628045</p>
+                    <hr>
+                    <a href="#">Orders</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Gift Cards</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Myntra Insider <span class="new-badge">New</span></a>
+                    <hr>
+                    <a href="#">Myntra Credit</a>
+                    <a href="#">Coupons</a>
+                    <a href="#">Saved Cards</a>
+                    <a href="#">Saved VPA</a>
+                    <a href="#">Saved Addresses</a>
+                    <hr>
+                    <a href="#">Edit Profile</a>
+                    <a href="#">Logout</a>
+                </div>
+            </div>
+
+            <div class="action_container">
+                <span class="material-symbols-outlined action_icon" style="background: none">favorite</span>
+                <span class="action_name"> Wishlist </span>
+            </div>
+
+            <a class="action_container" href="bag.html" >
+                <span class="material-symbols-outlined action_icon" style="background: none">shopping_bag</span>
+                <span class="action_name"> Bag </span>
+                <span class="bag_item_count"> 0 </span>
+            </a>
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="banner_container">
+            <img class = "banner_image" src = "Images 1/banner.jpg" alt = "Main Banner">
+        </div>
+
+        <div class="category_heading"> MEDAL WORTHY BRANDS TO BAG </div>
+        <div class="category_items">
+            <a href="#"><img class="sale_item" src="Images 1/1.png"></a>
+            <a href="#"><img class="sale_item" src="Images 1/2.png"></a>
+            <a href="#"><img class="sale_item" src="Images 1/3.png"></a>
+            <a href="#"><img class="sale_item" src="Images 1/4.png"></a>
+            <a href="#"><img class="sale_item" src="Images 1/5.png"></a>
+            <a href="#"><img class="sale_item" src="Images 1/6.png"></a>
+            <a href="#"><img class="sale_item" src="Images 1/7.png"></a>
+            <a href="#"><img class="sale_item" src="Images 1/8.png"></a>
+            <a href="#"><img class="sale_item" src="Images 1/9.png"></a>
+            <a href="#"><img class="sale_item" src="Images 1/10.png"></a>
+        </div>
+
+        <div class="category_heading"> SHOP BY CATEGORY </div>      
+        <div class="category_items" id="Flow">
+            <a href="#"> <img class="sale_item" src="Images 1/13.jpg"> </a>
+            <a href="#"> <img class="sale_item" src="Images 1/14.jpg"> </a>
+            <a href="#"> <img class="sale_item" src="Images 1/15.jpg"> </a>
+            <a href="#"> <img class="sale_item" src="Images 1/16.jpg"> </a>
+            <a href="#"> <img class="sale_item" src="Images 1/17.jpg"> </a>
+            <a href="#"> <img class="sale_item" src="Images 1/18.jpg"> </a>
+            <a href="#"> <img class="sale_item" src="Images 1/19.jpg"> </a>
+            <a href="#"> <img class="sale_item" src="Images 1/20.jpg"> </a>
+            <a href="#"> <img class="sale_item" src="Images 1/21.jpg"> </a>
+            <a href="#"> <img class="sale_item" src="Images 1/22.jpg"> </a>
+        </div>
+
+
+        <div class="category_heading"> TOP DEALS OF THE DAY </div>
+        <div class="items_container">
+            /* All the items are in script file*/
+        </div>
+
+    </main>
+
+    <footer>
+
+        <div class="body_of_footer">
+
+            <div class="footer_container">
+
+                <div class="footer_column">
+                    <h3> ONLINE SHOPPING </h3>
+                    <a href="#">Men</a>
+                    <a href="#">Women</a>
+                    <a href="#">Kids</a>
+                    <a href="#">Home</a>
+                    <a href="#">Beauty</a>
+                    <a href="#">Genz</a>
+                    <a href="#">Gift Cards</a>
+                    <a href="#">Myntra Insider</a>
+                </div>
+
+                <div class="footer_column">
+                    <h3> CUSTOMER POLICIES </h3>
+                    <a href="#">Contact Us</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">T&C</a>
+                    <a href="#">Terms Of Use</a>
+                    <a href="#">Track Orders</a>
+                    <a href="#">Shipping</a>
+                    <a href="#">Cancellation</a>
+                    <a href="#">Returns</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Grievance Redressal</a>
+                </div>
+
+                <div class="footer_column">
+                    <h3> EXPERIENCE MYNTRA APP ON MOBILE </h3>
+                    <div id="icons_1">
+                        <img id="desktop-androidDownLink" src="https://constant.myntassets.com/web/assets/img/80cc455a-92d2-4b5c-a038-7da0d92af33f1539674178924-google_play.png">
+                        <img id="desktop-iOSDownLink" src="https://constant.myntassets.com/web/assets/img/bc5e11ad-0250-420a-ac71-115a57ca35d51539674178941-apple_store.png">
+                    </div>
+
+                    <h3> KEEP IN TOUCH </h3>
+                    <div id="icons_2">
+                        <img src="https://constant.myntassets.com/web/assets/img/d2bec182-bef5-4fab-ade0-034d21ec82e31574604275433-fb.png" style="width: 20px; height: 20px;">
+                        <img src="https://constant.myntassets.com/web/assets/img/f10bc513-c5a4-490c-9a9c-eb7a3cc8252b1574604275383-twitter.png" style="width: 20px; height: 20px;">
+                        <img src="https://constant.myntassets.com/web/assets/img/a7e3c86e-566a-44a6-a733-179389dd87111574604275355-yt.png" style="width: 28px; height: 20px;">
+                        <img src="https://constant.myntassets.com/web/assets/img/b4fcca19-5fc1-4199-93ca-4cae3210ef7f1574604275408-insta.png" style="width: 20px; height: 22px; position: relative; top: 1px;">
+                    </div>
+                </div>
+
+                <div class="footer_column">
+                    <div id="original">
+                        <img src="https://constant.myntassets.com/web/assets/img/6c3306ca-1efa-4a27-8769-3b69d16948741574602902452-original.png" style="width: 48px; height: 40px;">
+                        <div> <b> 100% ORIGINAL </b> guarantee for all products at myntra.com </div>
+                    </div>
+                    
+                    <div id="return">
+                        <img src="https://assets.myntassets.com/assets/images/retaillabs/2023/5/22/becb1b16-86cc-4e78-bdc7-7801c17947831684737106127-Return-Window-image.png" style="width: 48px; height: 49px;">
+                        <div> <b> Return within 14days </b> of receiving your order </div>
+                    </div>
+                </div> 
+
+            </div>   
+
+            <div class="links"> 
+                <h5> USEFULL LINKS </h5>
+                <a href="#">Contact Us</a>
+                <a href="#">Blog</a>
+                <a href="#">Careers</a>
+                <a href="#">Site Map</a>
+                <a href="#">Corporate Information</a>
+                <a href="#">Whitehat</a>
+                <a href="#">Cleartrip</a>
+            </div>
+
+            <div class="searches">
+                <h5 style="display: inline-block; vertical-align: middle; margin-right: 10px;">POPULAR SEARCHES</h5>
+                <span style="display: inline-block; vertical-align: middle; border-top: 1px solid #ccc; width: 80%; height: 0;"></span>
+            </div>
+
+            <div class="elements_of_searches">
+                <a href="#">Makeup</a>
+                <a href="#">Dresses</a>
+                <a href="#">Careers</a>
+                <a href="#">Site Map</a>
+                <a href="#">Corporate Information</a>
+                <a href="#">Whitehat</a>
+                <a href="#">Cleartrip</a>
+                <a href="#">Makeup</a>
+            </div>
+
+            <div class="copyright">
+                <div> In case of any concern, <a href="#"> <b> Contact Us </b> </a> </div>
+                <div> © 2025 www.myntra.com. All rights reserved. </div>
+                <div> A Flipkart company  </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="items.js"> </script>
+    <script src="script.js"> </script>
+
+</body>
+</html>
